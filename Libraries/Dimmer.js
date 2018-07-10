@@ -1,6 +1,6 @@
 /*!
   @title Dimmer
-  @version 1.0
+  @version 1.1
   @author Rick
  */
 var dir,
@@ -54,5 +54,5 @@ wk.onMove = function(x, y) {
  wk.onRelease = function () {
   	System.setGlobal(this.tag,res); 
 	pos = "D"+ res;
-	irpage.widget(pos).scheduleActions(); }
+	//irpage.widget(pos).scheduleActions(); }
 };
